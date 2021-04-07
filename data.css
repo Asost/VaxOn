@@ -1,0 +1,18 @@
+body{
+    background-color: #23272A;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.table{
+    border: 1px solid rgb(229, 64, 64);
+    border-collapse: collapse;
+}
+
+.tr{
+    border: 1px solid rgb(229, 64, 64);
+}
+.td{
+    border: 1px solid rgb(229, 64, 64);
+    padding: 10px;
+}

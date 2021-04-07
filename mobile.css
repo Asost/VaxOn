@@ -1,0 +1,85 @@
+.logo {
+    height: 30%;
+    left: 0%;
+    visibility: hidden;
+}
+
+.navbar {
+    z-index: 1;
+    left: -10%;
+    top: -2%;
+    height: 10%;
+    width: 100%;
+    display: inline;
+    text-align: center;
+}
+
+.navTitle{
+    visibility: hidden;
+}
+
+.contents{
+    background-color: #23272A;
+    margin: 0px;
+}
+
+.nabarUL li{
+    padding: 3%;
+    border-right: rgb(229, 64, 64) solid 1px;
+    display: inline;
+}
+
+.embed{
+    width: 0%;
+    border: 0px;
+}
+
+#applicationInputs{
+    width: 100%;
+}
+
+#about{
+    border-right: black solid 0px;
+}
+
+#vaxImage{
+    visibility: hidden;
+}
+
+#tableImage{
+    width: 1%;
+}
+
+.locationInfo{
+    width: 100%;
+}
+
+.middle{
+    position: relative;
+    font-size: 70%;
+}
+
+.main {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.leftGradient {
+    margin: 0 auto;
+    width: 100%;
+    height: 5%;
+    background: rgb(229, 64, 64);
+    background: linear-gradient(90deg, rgba(229, 64, 64, 1) 0%, rgba(44, 47, 51, 1) 100%);
+}
+
+.rightGradient {
+    margin: 0 auto;
+    width: 100%;
+    height: 5%;
+    background: rgb(229, 64, 64);
+    background: linear-gradient(90deg, rgba(44, 47, 51, 1) 0%, rgba(229, 64, 64, 1) 100%);
+}
+
+.aboutImage{
+    height: 100%;
+}

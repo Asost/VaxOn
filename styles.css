@@ -1,0 +1,119 @@
+.main {
+    margin: 0 auto;
+    min-height: calc(90% - 40px);
+    padding: 20px;
+    width: calc(60% - 40px);
+    background-color: #2C2F33;
+}
+
+.navbar {
+    position: fixed;
+    height: 50%;
+    width: 13%;
+    top: 10%;
+    left: 2%;
+    margin: 0;
+}
+
+.contents {
+    background-color: #2C2F33;
+    padding: 10px;
+    min-height: 100%;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+    margin-top: 60px;
+}
+
+.navTitle {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.logo {
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 10%;
+    margin-top: -60px;
+}
+
+.leftGradient {
+    margin: 0 auto;
+    width: 60%;
+    height: 5%;
+    background: rgb(229, 64, 64);
+    background: linear-gradient(90deg, rgba(229, 64, 64, 1) 0%, rgba(44, 47, 51, 1) 100%);
+}
+
+.rightGradient {
+    margin: 0 auto;
+    width: 60%;
+    height: 5%;
+    background: rgb(229, 64, 64);
+    background: linear-gradient(90deg, rgba(44, 47, 51, 1) 0%, rgba(229, 64, 64, 1) 100%);
+}
+
+.input {
+    width: 60%;
+    padding: 6px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #E34040;
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    font-size: medium;
+    outline: none;
+}
+
+.button {
+    background-color: #E34040;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+    outline: #23272A;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #23272A;
+    color: white;
+}
+
+.embed {
+    border: 5px solid #E34040;
+    padding: 20px;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutUs {
+    margin-top: 2%;
+    font-size: large;
+    padding: 20px;
+}
+
+.locationInfo {
+    width: 80%;
+    border-left: 4px solid rgb(229, 64, 64);
+    border-right: 4px solid rgb(229, 64, 64);
+    margin: 0 auto;
+}
+
+#textAbout{
+    width: 50%;
+}

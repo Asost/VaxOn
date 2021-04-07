@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color: #23272A;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a.link{
+    position: relative;
+    color: rgb(229, 64, 64);
+    text-decoration: none;
+}
+
+a.link:hover{
+    color: rgb(196, 54, 54);
+}
+
+a.middle {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.middle:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+a.middle:active {
+    color: rgb(229, 64, 64);
+}
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #23272A;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #E34040;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #E34040;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='date'] {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #23272A;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #E34040;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cc3b3b;
+}
+
+li{
+    padding-bottom: 20px;
+}
